@@ -116,6 +116,7 @@ export default {
     margin: 0% 22% 0 22%;
     border: none;
     border-radius: 10px;
+    overflow: scroll;
   }
 
   button {
@@ -139,6 +140,7 @@ export default {
   
   .input textarea {
     width: 200%;
+    height: 98%;
   }
 
   @media screen and (max-width: 1400px) {
@@ -148,6 +150,52 @@ export default {
 
     .input textarea {
       width: 150%;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .input textarea {
+      width: 120%;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .input textarea {
+      width: 100%;
+    }
+
+    h2 {
+      font-size: medium;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .input textarea {
+      width: 180px;
+    }
+  }
+
+  @media screen and (max-width: 620px) {
+    .text {
+      margin: 0% 10% 0 10%;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    .input textarea {
+      width: 140px;
+    }
+  }
+
+  @media screen and (max-width: 350px) {
+    .input textarea {
+      width: 115px;
+    }
+  }
+
+  @media screen and (max-width: 300px) {
+    .input textarea {
+      width: 100px;
     }
   }
 </style>
